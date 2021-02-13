@@ -7,7 +7,6 @@ public class FractionObserver2 implements Observer {
 
     @Override
     public void update(Subject subject) {
-
         Fraction fraction = (Fraction) subject;
 
         if (fraction != null) {

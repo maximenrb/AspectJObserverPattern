@@ -7,7 +7,6 @@ public class PointObserver2 implements Observer {
 
     @Override
     public void update(Subject subject) {
-
         Point point = (Point) subject;
 
         if (point != null) {

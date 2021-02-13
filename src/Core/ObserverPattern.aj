@@ -5,6 +5,7 @@ import java.util.Collection;
 
 public abstract aspect ObserverPattern {
 
+    // Notify all observer on pointcut defined in Observable.aj
     public abstract pointcut notifyObservers(Subject subject);
     after(Subject subject) returning : notifyObservers(subject) {
         for (Observer observer : subject.getObservers()) {
@@ -13,6 +14,7 @@ public abstract aspect ObserverPattern {
     }
 
 
+    // Implement Subject attribute and methods
     private final Collection<Observer> Subject.observers = new ArrayList<>();
 
     public void Subject.addObserver(Observer observer) {
