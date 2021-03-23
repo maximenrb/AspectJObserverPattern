@@ -29,8 +29,13 @@ declare parents: Fraction implements Subject;
 ```
 
 
-# Compilation
-- [IntelliJ Instructions](https://www.jetbrains.com/help/idea/using-the-aspectj-ajc-compiler.html)
+# Build and compile
+1. Download and add AspectJ to your project:
+    - [IntelliJ Instructions](https://www.jetbrains.com/help/idea/using-the-aspectj-ajc-compiler.html#settings)
+
+
+2. Set AJC compiler:
+    - [IntelliJ Instructions](https://www.jetbrains.com/help/idea/using-the-aspectj-ajc-compiler.html#settings)
 
 # Built With
 - [AspectJ](https://www.eclipse.org/aspectj/) - AspectJ is an aspect-oriented programming (AOP) extension for the Java programming language.
