@@ -4,7 +4,7 @@ Implementation of Observer / Observable pattern in Java with AspectJ
 
 # Usage
 
-For exemple, you can do the following line to instantiate the object Point:
+For example, you can do the following line to instantiate the object Point:
 ```java
 Point point = new Point(1, 1);
 ```
