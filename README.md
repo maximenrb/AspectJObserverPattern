@@ -30,8 +30,8 @@ declare parents: Fraction implements Subject;
 
 
 # Build and compile
-1. Download and add AspectJ to your project:
-    - [IntelliJ Instructions](https://www.jetbrains.com/help/idea/using-the-aspectj-ajc-compiler.html#settings)
+1. Download and add AspectJ to your project, then add AspectJ dependencies:
+    - [IntelliJ Instructions](https://www.jetbrains.com/help/idea/aspectj.html#add-library)
 
 
 2. Set AJC compiler:
